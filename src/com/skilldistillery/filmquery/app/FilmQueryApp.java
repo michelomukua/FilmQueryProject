@@ -73,7 +73,9 @@ public class FilmQueryApp {
 		if(choice == 1) {
 			
 		}else if(choice == 2){
+			
 			printAllFilmDetails(film);
+			
 		}else {
 			
 		}
@@ -113,7 +115,6 @@ public class FilmQueryApp {
 		
 	}
 	
-	
 	private void printFilmDetails(Film film) {
 		System.out.println("Title : " + film.getTitle());
 		System.out.println("Year : " + film.getReleaseYear());
@@ -139,7 +140,5 @@ public class FilmQueryApp {
 		System.out.println("Rental Duration : " + film.getRentalDuration());
 		System.out.println("Actors : " + film.listOfActors());
 	}
-	
-	
 	
 }
